@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.75)),
+        url(https://images.unsplash.com/photo-1554080353-321e452ccf19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.hero-content h1 {
+    font-weight: 600px;
+    font-size: 2.15rem;
+    color: white;
+}
+.hero-content p {
+    font-size: 1.10rem;
+    color: white;
+}
+.sub-hero {
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+}
+.sub-hero-content h1 {
+    font-size: 1.90rem;
+}
+.sub-hero-content p {
+    font-size: 1.10rem;
+}
+.collection {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.collection h1 {
+    font-size: 1.90rem;
+}
+.collection p {
+    font-size: 1.10rem;
+}
+.see-my-collection {
+    display: flex;
+    justify-content: center;
+}
+.images-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}
+.images-collection {
+    padding: 10px;
+}
+.images-collection img {
+    width: 400px;
+}
+.contact {
+    text-align: center;
+}
+.contact h1 {
+    font-size: 1.90rem;
+}
+.contact p {
+    font-size: 1.10rem;
+}
+.contact-content .bx {
+    padding-top: 50px;
+    font-size: 75px;
+    font-style: italic;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+header img {
+    width: 95px;
+}
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin-top: 90px;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+footer img {
+    width: 95px;
+}
+.footer-content p {
+    line-height: 1.5rem;
+}
+.anchor-button {
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .hero-image {
+        height: 65%;
+    }
+    .hero-content h1 {
+        font-weight: 600px;
+        font-size: 2rem;
+        color: white;
+    }
+    .hero-content p {
+        font-size: 1.10rem;
+        color: white;
+        padding: 3px;
+    }
+    .sub-hero-content h1 {
+        font-size: 1.75rem;
+    }
+    .sub-hero-content p {
+        font-size: 1.10rem;
+        padding: 3px;
+    }
+    .collection h1 {
+        font-size: 1.75rem;
+    }
+    .collection p {
+        font-size: 1.10rem;
+        padding: 3px;
+    }
+    .images-container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    .contact h1 {
+        font-size: 1.75rem;
+    }
+    .contact p {
+        font-size: 1.10rem;
+        padding: 3px;
+    }
+}
