@@ -1,2 +1,2 @@
 # ns-photography-mini-project
-This is a photography website (mini project of Newton School) using Html and CSS.
+This project is given by Newton School. In this project I have created a photography website using Html and CSS.
