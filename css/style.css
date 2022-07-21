@@ -107,7 +107,7 @@ footer img {
 .anchor-button {
     color: white;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 674px) {
     .hero-image {
         height: 65%;
     }
